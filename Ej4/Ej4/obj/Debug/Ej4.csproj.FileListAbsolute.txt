@@ -1,8 +1,0 @@
-c:\users\hp\onedrive\documentos\visual studio 2012\Projects\Ej4\Ej4\bin\Ej4.dll
-c:\users\hp\onedrive\documentos\visual studio 2012\Projects\Ej4\Ej4\bin\Ej4.pdb
-c:\users\hp\onedrive\documentos\visual studio 2012\Projects\Ej4\Ej4\obj\Debug\Ej4.dll
-c:\users\hp\onedrive\documentos\visual studio 2012\Projects\Ej4\Ej4\obj\Debug\Ej4.pdb
-c:\users\hp\onedrive\documentos\visual studio 2012\Projects\Ej4\Ej4\bin\MySql.Data.Entity.EF5.dll
-c:\users\hp\onedrive\documentos\visual studio 2012\Projects\Ej4\Ej4\bin\MySql.Data.Entity.EF6.dll
-c:\users\hp\onedrive\documentos\visual studio 2012\Projects\Ej4\Ej4\bin\MySql.Fabric.Plugin.dll
-c:\users\hp\onedrive\documentos\visual studio 2012\Projects\Ej4\Ej4\obj\Debug\Ej4.csprojResolveAssemblyReference.cache
