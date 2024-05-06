@@ -1,0 +1,63 @@
+CREATE TABLE Persona (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(50),
+    apellido VARCHAR(50),
+    direccion VARCHAR(100)
+);
+
+CREATE TABLE CuentaBancaria (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    numero_cuenta VARCHAR(20),
+    saldo DECIMAL(10, 2),
+    tipo_cuenta ENUM('Corriente', 'Ahorros', 'Inversión'),
+    persona_id INT,
+    FOREIGN KEY (persona_id) REFERENCES Persona(id)
+);
+
+CREATE TABLE TransaccionBancaria (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    tipo VARCHAR(20),
+    monto DECIMAL(10, 2),
+    cuenta_origen_id INT,
+    cuenta_destino_id INT,
+    FOREIGN KEY (cuenta_origen_id) REFERENCES CuentaBancaria(id),
+    FOREIGN KEY (cuenta_destino_id) REFERENCES CuentaBancaria(id)
+);
+
+INSERT INTO Persona (nombre, apellido, direccion) VALUES ('Juan', 'Pérez', 'Calle 123, Ciudad de México');
+INSERT INTO Persona (nombre, apellido, direccion) VALUES ('María', 'García', 'Avenida 456, Madrid');
+INSERT INTO Persona (nombre, apellido, direccion) VALUES ('Carlos', 'López', 'Carrera 789, Bogotá');
+INSERT INTO Persona (nombre, apellido, direccion) VALUES ('Ana', 'Martínez', 'Plaza 101, Buenos Aires');
+INSERT INTO Persona (nombre, apellido, direccion) VALUES ('Javier', 'Rodríguez', 'Calle 567, Santiago');
+
+-- Insertar cuentas bancarias de ejemplo
+INSERT INTO CuentaBancaria (numero_cuenta, saldo, tipo_cuenta, persona_id) 
+VALUES ('123456789', 5000.00, 'Corriente', 1);
+
+INSERT INTO CuentaBancaria (numero_cuenta, saldo, tipo_cuenta, persona_id) 
+VALUES ('987654321', 10000.00, 'Ahorros', 2);
+
+INSERT INTO CuentaBancaria (numero_cuenta, saldo, tipo_cuenta, persona_id) 
+VALUES ('567890123', 20000.00, 'Inversión', 3);
+
+INSERT INTO CuentaBancaria (numero_cuenta, saldo, tipo_cuenta, persona_id) 
+VALUES ('456789012', 7000.00, 'Corriente', 4);
+
+INSERT INTO CuentaBancaria (numero_cuenta, saldo, tipo_cuenta, persona_id) 
+VALUES ('789012345', 15000.00, 'Ahorros', 5);
+
+-- Insertar transacciones bancarias de ejemplo
+INSERT INTO TransaccionBancaria (tipo, monto, cuenta_origen_id, cuenta_destino_id) 
+VALUES ('Depósito', 1000.00, 1, NULL);
+
+INSERT INTO TransaccionBancaria (tipo, monto, cuenta_origen_id, cuenta_destino_id) 
+VALUES ('Retiro', 500.00, 2, NULL);
+
+INSERT INTO TransaccionBancaria (tipo, monto, cuenta_origen_id, cuenta_destino_id) 
+VALUES ('Transferencia', 200.00, 3, 1);
+
+INSERT INTO TransaccionBancaria (tipo, monto, cuenta_origen_id, cuenta_destino_id) 
+VALUES ('Depósito', 1500.00, 4, NULL);
+
+INSERT INTO TransaccionBancaria (tipo, monto, cuenta_origen_id, cuenta_destino_id) 
+VALUES ('Retiro', 800.00, 5, NULL);
