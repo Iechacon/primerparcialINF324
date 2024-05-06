@@ -1,0 +1,14 @@
+c:\users\hp\onedrive\documentos\visual studio 2012\Projects\Ejercicio nro3\Ejercicio nro3\bin\Debug\Ejercicio nro3.exe.config
+c:\users\hp\onedrive\documentos\visual studio 2012\Projects\Ejercicio nro3\Ejercicio nro3\bin\Debug\Ejercicio nro3.exe
+c:\users\hp\onedrive\documentos\visual studio 2012\Projects\Ejercicio nro3\Ejercicio nro3\bin\Debug\Ejercicio nro3.pdb
+c:\users\hp\onedrive\documentos\visual studio 2012\Projects\Ejercicio nro3\Ejercicio nro3\bin\Debug\MySql.Data.Entity.EF5.dll
+c:\users\hp\onedrive\documentos\visual studio 2012\Projects\Ejercicio nro3\Ejercicio nro3\bin\Debug\MySql.Data.Entity.EF6.dll
+c:\users\hp\onedrive\documentos\visual studio 2012\Projects\Ejercicio nro3\Ejercicio nro3\bin\Debug\MySql.Fabric.Plugin.dll
+c:\users\hp\onedrive\documentos\visual studio 2012\Projects\Ejercicio nro3\Ejercicio nro3\obj\Debug\Ejercicio nro3.csprojResolveAssemblyReference.cache
+c:\users\hp\onedrive\documentos\visual studio 2012\Projects\Ejercicio nro3\Ejercicio nro3\obj\Debug\Ejercicio_nro3.Properties.Resources.resources
+c:\users\hp\onedrive\documentos\visual studio 2012\Projects\Ejercicio nro3\Ejercicio nro3\obj\Debug\Ejercicio nro3.csproj.GenerateResource.Cache
+c:\users\hp\onedrive\documentos\visual studio 2012\Projects\Ejercicio nro3\Ejercicio nro3\obj\Debug\Ejercicio nro3.exe
+c:\users\hp\onedrive\documentos\visual studio 2012\Projects\Ejercicio nro3\Ejercicio nro3\obj\Debug\Ejercicio nro3.pdb
+c:\users\hp\onedrive\documentos\visual studio 2012\Projects\Ejercicio nro3\Ejercicio nro3\obj\Debug\Ejercicio_nro3.index.resources
+c:\users\hp\onedrive\documentos\visual studio 2012\Projects\Ejercicio nro3\Ejercicio nro3\obj\Debug\Ejercicio_nro3.persona.resources
+c:\users\hp\onedrive\documentos\visual studio 2012\Projects\Ejercicio nro3\Ejercicio nro3\obj\Debug\Ejercicio_nro3.cuenta.resources
