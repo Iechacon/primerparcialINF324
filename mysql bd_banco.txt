@@ -24,11 +24,11 @@ CREATE TABLE TransaccionBancaria (
     FOREIGN KEY (cuenta_destino_id) REFERENCES CuentaBancaria(id)
 );
 
-INSERT INTO Persona (nombre, apellido, direccion) VALUES ('Juan', 'Pérez', 'Calle 123, Ciudad de México');
-INSERT INTO Persona (nombre, apellido, direccion) VALUES ('María', 'García', 'Avenida 456, Madrid');
-INSERT INTO Persona (nombre, apellido, direccion) VALUES ('Carlos', 'López', 'Carrera 789, Bogotá');
-INSERT INTO Persona (nombre, apellido, direccion) VALUES ('Ana', 'Martínez', 'Plaza 101, Buenos Aires');
-INSERT INTO Persona (nombre, apellido, direccion) VALUES ('Javier', 'Rodríguez', 'Calle 567, Santiago');
+INSERT INTO Persona (nombre, apellido, direccion) VALUES ('Juan', 'Pérez', 'La Paz');
+INSERT INTO Persona (nombre, apellido, direccion) VALUES ('María', 'García', 'Santa Cruz');
+INSERT INTO Persona (nombre, apellido, direccion) VALUES ('Carlos', 'López', 'Cochabamba');
+INSERT INTO Persona (nombre, apellido, direccion) VALUES ('Ana', 'Martínez', 'La Paz');
+INSERT INTO Persona (nombre, apellido, direccion) VALUES ('Javier', 'Rodríguez', 'Santa Cruz');
 
 -- Insertar cuentas bancarias de ejemplo
 INSERT INTO CuentaBancaria (numero_cuenta, saldo, tipo_cuenta, persona_id) 
