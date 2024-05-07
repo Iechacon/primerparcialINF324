@@ -37,6 +37,11 @@ $rol = $_SESSION['rol'];
         <li><a href="tablasel.php">Eliminar Persona</a></li>
         <li><a href="tablas.php">Mostrar los datos</a></li>
     </ul>
+    <?php elseif ($rol == 'director bancario'): ?>
+    <h3>Opciones Adicionales para Administrador</h3>
+    <ul>
+        <li><a href="tabla2.php">Mostrar los datos</a></li>
+    </ul>
     <!-- Mostrar opciones específicas para administrador -->
     <?php else: 
         header("Location: tablas.php");?>
