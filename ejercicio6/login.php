@@ -41,7 +41,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <option value="editor">Editor</option>
             <option value="administrador">Administrador</option>
             <option value="usuario">Usuario</option>
-            <option value="director bancario">Director bancario</option>
         </select><br><br>
         <input type="submit" value="Iniciar sesión">
     </form>
